@@ -1,0 +1,10 @@
+/* drawflow.component.css */
+:host {
+    display: block;
+  }
+  
+  #drawflowContainer {
+    height: 400px;
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+  }
+  
