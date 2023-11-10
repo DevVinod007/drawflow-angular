@@ -8,3 +8,21 @@
     border: 1px solid #ccc; /* Optional: Add a border for better visibility */
   }
   
+  .tree-node {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .tree-node i {
+    margin-right: 5px;
+  }
+  
+  .tree-node:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -15px;
+    border-left: 1px solid #ccc;
+    height: 100%;
+  }
+  
